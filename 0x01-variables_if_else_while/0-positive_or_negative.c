@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: This program generates a random number 
+ * Description: This program generates a random number
  * and lets you now weather it is positive or negative.
  *
  * Return: Always 0 (Success)
