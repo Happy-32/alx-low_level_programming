@@ -3,7 +3,7 @@
 #include <time.h>/**
  * main - Entry point
  *
- * This program generates a random number
+ * Description: This program generates a random number
  * and prints information about its last digit.
  *
  * Return: Always 0 (Success)

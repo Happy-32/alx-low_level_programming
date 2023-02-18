@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/* A program that prints out all the uppercase and lowercase alphabets*/
+/**
+ * main - Entry point
+ *
+ * Description: This program prints the alphabets in lowercases and uppercases
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     char alph;

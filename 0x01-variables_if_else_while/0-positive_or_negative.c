@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>/**
+#include <time.h>
+/**
  * main - Entry point
  *
- * This program generates a random number 
+ * Description: This program generates a random number 
  * and lets you now weather it is positive or negative.
  *
  * Return: Always 0 (Success)
