@@ -2,17 +2,17 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints the alphabet in lowercase\n
+ * Description: prints char below 10
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int ch;
+	int a;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(ch);
+		putchar(a + '0');
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }
