@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
- * Description: checks is a character is lowercase
+ * _isalpha - Entry point
  * @c: the integer value it receives
- * Return: 1 if true. 0 if false.
+ * Description: checks if alphabet
+ * Return: 1 if true. 0 if false
  */
 int _isalpha(int c)
 {
