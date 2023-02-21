@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * add - adds two integers
@@ -8,11 +8,11 @@
  * Return: sum
  */
 
-int add(int n1, int n2)
+int add(int a, int b)
 {
 	int sum;
 
-	sum = n1 + n2;
+	sum = a + b;
 
 	return (sum);
 }
