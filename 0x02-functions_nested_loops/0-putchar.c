@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: prints a string _putchar
@@ -13,7 +14,7 @@ while (str[i] != '\0')
 	{
 	char c = str[i];
 
-	putchar(c);
+	_putchar(c);
 	i++;
 	}
 return (0);
