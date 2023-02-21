@@ -1,12 +1,13 @@
 #include "main.h"
+
 /**
- * main - Entry point
- * Description: prints the alphabets
- * Return: Always 0 (success)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int main()
+int main(void)
 {
 	print_alphabet();
-	
 	return (0);
-} 
+}
+

@@ -4,9 +4,14 @@
  * Description: prints a string _putchar
  * Return: Always 0 (success)
  */
-int main()
+void print_alphabet(void)
 {
-	print_alphabet();
+	char al = 'a';
 	
-	return (0);
-} 
+	while (al <= 'z')
+	{
+		_putchar(al);
+		al++;
+	}
+	_putchar('\n');
+}
