@@ -7,8 +7,7 @@
  * Description: give two integers, returns sum
  * Return: sum
  */
-
-int add(int a, int b)
+int add(int n1, int n2)
 {
 	int sum;
 
