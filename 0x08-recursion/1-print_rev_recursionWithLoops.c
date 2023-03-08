@@ -7,9 +7,22 @@
  
 void _print_rev_recursion(char *s)
 {
-	if (*s)
+	char revstr[20];
+	char *rev = revstr;
+	int i = -1;
+	while (*s)
 	{
-		_print_rev_recursion(s + 1);
+		s++;
+		i++;
+	}
+	
+	while (i >= 0)
+	{
+		s--;
+		*rev = *s;
+		rev++;
+		--i;
 		_putchar(*s);
 	}
+	
 } 
