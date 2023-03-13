@@ -10,8 +10,12 @@ char *_strdup(char *str)
 {
 	char *dupe;
 	int index, len;
+
 	len = 0;
-	
+
+	for (index = 0; str[index]; index++)
+		len++;
+
 	if (str == NULL)
 		return (NULL);
 
