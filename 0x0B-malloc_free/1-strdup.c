@@ -1,27 +1,27 @@
 #include "main.h"
 
 /**
- * *_strdup - creates an array
- * @str: the size of the array
+ * *_strdup - creates an string
+ * @str: the size of the string
  *
- * Return: array.
+ * Return: dupe.
  */
 char *_strdup(char *str)
 {
 	char *dupe;
 	int index, len;
 	len = 0;
+	
 	if (str == NULL)
 		return (NULL);
 
-	dupe = malloc(sizeof(char) * (len + 1));
+	dupe = (char *)malloc(sizeof(char) * (len + 1));
 
 	if (dupe == NULL)
 		return (NULL);
 
 	for (index = 0; str[index]; index++)
 		dupe[index] = str[index];
-
 
 	return (dupe);
 }
