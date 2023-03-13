@@ -13,11 +13,12 @@ char *_strdup(char *str)
 
 	len = 0;
 
-	for (index = 0; str[index]; index++)
-		len++;
 
 	if (str == NULL)
 		return (NULL);
+
+	for (index = 0; str[index]; index++)
+		len++;
 
 	dupe = (char *)malloc(sizeof(char) * (len + 1));
 
@@ -26,6 +27,8 @@ char *_strdup(char *str)
 
 	for (index = 0; str[index]; index++)
 		dupe[index] = str[index];
+
+	dupe[len] = '\0';
 
 	return (dupe);
 }
